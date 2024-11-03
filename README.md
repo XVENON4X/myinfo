@@ -116,7 +116,7 @@ Wiem, że taki obraz może wydawać się prosty, ale nie oddaje tego, kim napraw
                             margin-bottom: 10px;
                         }
                         p {
-                            font-size: 1.2em; /* Zmniejsz rozmiar czcionki */
+                            font-size: 2.2em; /* Zmniejsz rozmiar czcionki */
                         }
                     </style>
                 `);
