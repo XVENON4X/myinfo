@@ -80,10 +80,20 @@
                     <div class="container">
                         <h1>Witaj, ${username}!</h1>
                         <p>Cześć! Witaj na mojej stronie. Nazywam się Maks, pochodzę z Podkarpacia, w Polsce. Od zawsze interesowałem się elektroniką i tym, co można z nią zrobić. Moje pasje są różnorodne, ale łączy je technologia – fascynuje mnie programowanie, tworzenie gier, praca z mikrokontrolerami, a także nagrywanie filmów na YouTube i drony FPV.
+                        </p>
+<p>
 Jestem introwertykiem, a ludzie, którzy mnie znają, wiedzą, że potrzebuję czasu, aby otworzyć się na innych. Życie nauczyło mnie pewnej ostrożności, dlatego wolę mniejsze grupy i towarzystwo osób, które dobrze znam. Myślę, że zaledwie 1% osób, które mnie znają, naprawdę rozumie, kim jestem. W rozmowach bardziej słucham niż mówię – interesuje mnie, co inni mają do powiedzenia. Staram się unikać sytuacji, w których ludzie przerywają sobie nawzajem albo niepotrzebnie podnoszą głos. Cenię spokój i szacunek w komunikacji.
+</p>
+<p>
 jak ja myślę o sobie: Kiedy myślę o sobie, widzę kogoś, kto zawsze jest zajęty, ale mimo to stara się robić jak najwięcej. Mam wrażenie, że na nic nie mam czasu, a jednocześnie próbuję zajmować się wszystkim, co mnie interesuje. Szkoła jest dla mnie sporym wyzwaniem – potrafię spędzić trzy godziny ucząc się czegoś, a potem dostać ocenę niedostateczną. Nie jestem typem osoby, która dobrze radzi sobie z bezmyślnym „wkuwaniem” wiedzy. To podejście do nauki, w którym liczy się tylko zapamiętywanie, nie przemawia do mnie i uważam je za mało sensowne. Wolę zrozumieć, jak coś działa, zamiast po prostu zapamiętać fakty.
+</p>
+<p>
 Z drugiej strony, rzeczy, które naprawdę lubię, przychodzą mi naturalnie i nie wymagają wielkiego wysiłku. Jednak niewiele osób tak naprawdę mnie rozumie. Nie jestem osobą, która łatwo się otwiera – jeśli nie muszę rozmawiać, to zazwyczaj tego unikam. Być może dlatego trudno jest mnie dobrze poznać.
+</p>
+<p>
 jak myśle że inni myślą o mnie: Jak myślę, że inni mnie postrzegają? Wydaje mi się, że wiele osób widzi mnie jako osobę leniwą, która unika obowiązków i po prostu spędza czas na graniu w gry. Często czuję, że ludzie myślą, że nie interesuję się niczym poważnym, że nie chce mi się uczyć ani rozwijać, a jedyne, co umiem, to ubierać się na czarno i siedzieć w swoim świecie.
+</p>
+<p>
 Wiem, że taki obraz może wydawać się prosty, ale nie oddaje tego, kim naprawdę jestem. Jestem introwertykiem, który sporo analizuje i ma własne podejście do życia. Może nie zawsze robię to, czego inni oczekują, i nie zawsze podążam za tym, co wydaje się być „normą.” Ale mam swoje zainteresowania i cele, nawet jeśli nie są one widoczne na pierwszy rzut oka.</p>
                         <a href="#" class="button">Dowiedz się więcej</a>
                     </div>
