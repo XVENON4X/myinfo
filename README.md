@@ -103,7 +103,7 @@ Wiem, że taki obraz może wydawać się prosty, ale nie oddaje tego, kim napraw
                     <style>
                         .container {
                             text-align: center;
-                            max-width: 1600px;
+                            max-width: 2600px;
                             padding: 20px;
                             border: 1px solid #333;
                             border-radius: 8px;
