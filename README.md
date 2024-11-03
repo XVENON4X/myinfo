@@ -103,7 +103,7 @@ Wiem, że taki obraz może wydawać się prosty, ale nie oddaje tego, kim napraw
                     <style>
                         .container {
                             text-align: center;
-                            max-width: 1200px;
+                            max-width: 1600px;
                             padding: 20px;
                             border: 1px solid #333;
                             border-radius: 8px;
@@ -112,12 +112,12 @@ Wiem, że taki obraz może wydawać się prosty, ale nie oddaje tego, kim napraw
                             margin: 0 auto;
                         }
                         .container h1 {
-                            font-size: 2.5em;
+                            font-size: 4em;
                             color: #e0e0e0;
                             margin-bottom: 10px;
                         }
                         .container p {
-                            font-size: 1.2em;
+                            font-size: 4em;
                             color: #bbbbbb;
                             line-height: 1.6;
                         }
@@ -126,9 +126,9 @@ Wiem, że taki obraz może wydawać się prosty, ale nie oddaje tego, kim napraw
                             padding: 10px 20px;
                             margin-top: 20px;
                             background-color: #444;
-                            color: #ffffff;
+                            color: #1c1a1a;
                             text-decoration: none;
-                            font-size: 1em;
+                            font-size: 4em;
                             border-radius: 4px;
                             transition: background-color 0.3s;
                         }
