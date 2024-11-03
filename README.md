@@ -95,7 +95,6 @@ jak myśle że inni myślą o mnie: Jak myślę, że inni mnie postrzegają? Wyd
 </p>
 <p>
 Wiem, że taki obraz może wydawać się prosty, ale nie oddaje tego, kim naprawdę jestem. Jestem introwertykiem, który sporo analizuje i ma własne podejście do życia. Może nie zawsze robię to, czego inni oczekują, i nie zawsze podążam za tym, co wydaje się być „normą.” Ale mam swoje zainteresowania i cele, nawet jeśli nie są one widoczne na pierwszy rzut oka.</p>
-                        <a href="#" class="button">Dowiedz się więcej</a>
                     </div>
                 `;
                 // Dodatkowy styl do nowej strony
