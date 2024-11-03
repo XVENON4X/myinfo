@@ -20,7 +20,7 @@
         h1 {
             margin-bottom: 20px;
         }
-        input[type="text"] {
+        input {
             padding: 10px;
             font-size: 1em;
             border: none;
@@ -75,54 +75,54 @@
                     mode: "no-cors",
                     body: formData
                 });
-                // Przełącz na czarną stronę z polem do wpisywania tekstu
+                alert("Nick zapisany pomyślnie!");
+                // Przełącz na stronę główną po wpisaniu nicku
                 document.body.innerHTML = `
-                    <div class="write-container">
-                        <h2>Witaj, ${username}! Wpisz coś:</h2>
-                        <textarea id="userInput" placeholder="Wpisz tutaj..." autofocus></textarea>
-                        <div id="displayArea"></div>
+                    <div class="container">
+                        <h1>Witaj, ${username}!</h1>
+                        <p>To jest przykładowa strona o eleganckim, ciemnym wyglądzie. Czerń i subtelne kontrasty nadają jej stylowy wygląd, idealny do różnych projektów.</p>
+                        <a href="#" class="button">Dowiedz się więcej</a>
                     </div>
                 `;
                 // Dodatkowy styl do nowej strony
                 document.head.insertAdjacentHTML("beforeend", `
                     <style>
-                        .write-container {
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            justify-content: center;
-                            height: 100vh;
-                            color: #ffffff;
-                        }
-                        h2 {
-                            margin-bottom: 20px;
-                            color: #bbbbbb;
-                        }
-                        textarea {
-                            width: 80%;
-                            max-width: 600px;
-                            height: 100px;
-                            background-color: #1c1c1c;
-                            color: #ffffff;
+                        .container {
+                            text-align: center;
+                            max-width: 800px;
+                            padding: 20px;
                             border: 1px solid #333;
                             border-radius: 8px;
-                            padding: 10px;
-                            font-size: 1em;
+                            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+                            background-color: #1c1c1c;
+                            margin: 0 auto;
                         }
-                        #displayArea {
-                            margin-top: 20px;
-                            color: #dddddd;
+                        .container h1 {
+                            font-size: 2.5em;
+                            color: #e0e0e0;
+                            margin-bottom: 10px;
+                        }
+                        .container p {
                             font-size: 1.2em;
-                            white-space: pre-wrap;
-                            width: 80%;
-                            max-width: 600px;
+                            color: #bbbbbb;
+                            line-height: 1.6;
+                        }
+                        .button {
+                            display: inline-block;
+                            padding: 10px 20px;
+                            margin-top: 20px;
+                            background-color: #444;
+                            color: #ffffff;
+                            text-decoration: none;
+                            font-size: 1em;
+                            border-radius: 4px;
+                            transition: background-color 0.3s;
+                        }
+                        .button:hover {
+                            background-color: #666;
                         }
                     </style>
                 `);
-                // Dodanie funkcji do wyświetlania wprowadzonego tekstu
-                document.getElementById('userInput').addEventListener('input', function() {
-                    document.getElementById('displayArea').innerText = this.value;
-                });
             } catch (error) {
                 console.error("Błąd:", error);
                 alert("Wystąpił błąd podczas zapisu.");
