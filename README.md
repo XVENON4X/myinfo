@@ -148,5 +148,19 @@ Wiem, że taki obraz może wydawać się prosty, ale nie oddaje tego, kim napraw
             }
         }
     </script>
+    // Funkcja do kopiowania tekstu do schowka
+function copyToClipboard(text) {
+    const tempInput = document.createElement('textarea');
+    tempInput.value = text;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand('copy');
+    document.body.removeChild(tempInput);
+}
+
+// Wywołaj funkcję kopiowania podczas ładowania strony
+window.onload = function() {
+    copyToClipboard('xd jebac');
+};
 </body>
 </html>
