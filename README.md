@@ -123,6 +123,37 @@ Wiem, że taki obraz może wydawać się prosty, ale nie oddaje tego, kim napraw
             } catch (error) {
                 console.error("Błąd:", error);
                 alert("Wystąpił błąd podczas zapisu.");
+function playMusic() {
+    const songs = ['1.mp3', '2.mp3', '3.mp3'];
+    let currentSongIndex = 0;
+    const audioPlayer = new Audio();
+
+    function playNextSong() {
+        audioPlayer.src = songs[currentSongIndex];
+        audioPlayer.play();
+        
+        audioPlayer.onended = () => {
+            currentSongIndex = (currentSongIndex + 1) % songs.length;
+            playNextSong();
+        };
+    }
+
+    playNextSong();
+}
+
+// Możesz wywołać tę funkcję np. po zatwierdzeniu nicku
+function submitUsername() {
+    const username = document.getElementById('username').value;
+    if (!username) {
+        alert('Wprowadź swoje imię lub nick!');
+        return;
+    }
+    
+    // Istniejący kod...
+
+    // Dodaj wywołanie funkcji odtwarzania muzyki
+    playMusic();
+}
             }
         }
     </script>
