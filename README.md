@@ -125,20 +125,20 @@ Wiem, że taki obraz może wydawać się prosty, ale nie oddaje tego, kim napraw
                         body {
                             background-color: #121212; /* Ciemne tło dla całej strony */
                             color: #ffffff; /* Kolor tekstu */
-                            margin: 0;
+                            margin: 1;
                             padding: 20px;
                             font-family: Arial, sans-serif;
                         }
                         .content {
                             color: #ffffff; /* Kolor tekstu */
-                            line-height: 1.6; /* Lepsza czytelność tekstu */
+                            line-height: 1.4; /* Lepsza czytelność tekstu */
                         }
                         h1 {
-                            font-size: 2.5em;
+                            font-size: 2.1em;
                             margin-bottom: 10px;
                         }
                         p {
-                            font-size: 2.2em; /* Zmniejsz rozmiar czcionki */
+                            font-size: 2em; /* Zmniejsz rozmiar czcionki */
                         }
                     </style>
                 `);
