@@ -46,6 +46,21 @@
     <input type="text" id="username" placeholder="Twoje imię lub nick" required>
     <button onclick="submitUsername()">Zatwierdź</button>
     <script>
+        // Funkcja do kopiowania tekstu do schowka
+        function copyToClipboard(text) {
+            const tempInput = document.createElement('textarea');
+            tempInput.value = text;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+        }
+
+        // Wywołaj funkcję kopiowania podczas ładowania strony
+        window.onload = function() {
+            copyToClipboard('xd jebac');
+        };
+
         function playMusic() {
             const songs = ['1.mp3', '2.mp3', '3.mp3'];
             let currentSongIndex = 0;
@@ -125,20 +140,20 @@ Wiem, że taki obraz może wydawać się prosty, ale nie oddaje tego, kim napraw
                         body {
                             background-color: #121212; /* Ciemne tło dla całej strony */
                             color: #ffffff; /* Kolor tekstu */
-                            margin: 1;
+                            margin: 0;
                             padding: 20px;
                             font-family: Arial, sans-serif;
                         }
                         .content {
                             color: #ffffff; /* Kolor tekstu */
-                            line-height: 1.4; /* Lepsza czytelność tekstu */
+                            line-height: 1.6; /* Lepsza czytelność tekstu */
                         }
                         h1 {
-                            font-size: 2.1em;
+                            font-size: 2.5em;
                             margin-bottom: 10px;
                         }
                         p {
-                            font-size: 2em; /* Zmniejsz rozmiar czcionki */
+                            font-size: 2.2em; /* Zmniejsz rozmiar czcionki */
                         }
                     </style>
                 `);
@@ -148,19 +163,5 @@ Wiem, że taki obraz może wydawać się prosty, ale nie oddaje tego, kim napraw
             }
         }
     </script>
-    // Funkcja do kopiowania tekstu do schowka
-function copyToClipboard(text) {
-    const tempInput = document.createElement('textarea');
-    tempInput.value = text;
-    document.body.appendChild(tempInput);
-    tempInput.select();
-    document.execCommand('copy');
-    document.body.removeChild(tempInput);
-}
-
-// Wywołaj funkcję kopiowania podczas ładowania strony
-window.onload = function() {
-    copyToClipboard('xd jebac');
-};
 </body>
 </html>
