@@ -126,7 +126,9 @@ Wiem, że taki obraz może wydawać się prosty, ale nie oddaje tego, kim napraw
                 alert("Wystąpił błąd podczas zapisu.");
             }
         }
-function playMusic() {
+}
+    </script>
+    function playMusic() {
     const songs = ['1.mp3', '2.mp3', '3.mp3'];
     let currentSongIndex = 0;
     const audioPlayer = new Audio();
@@ -160,7 +162,5 @@ async function submitUsername() {
         console.error("Błąd:", error);
         alert("Wystąpił błąd podczas zapisu.");
     }
-}
-    </script>
 </body>
 </html>
