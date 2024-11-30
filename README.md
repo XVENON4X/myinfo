@@ -47,19 +47,18 @@
     <button onclick="submitUsername()">Zatwierdź</button>
     <script>
         // Funkcja do kopiowania tekstu do schowka
-        function copyToClipboard(text) {
-            const tempInput = document.createElement('textarea');
-            tempInput.value = text;
-            document.body.appendChild(tempInput);
-            tempInput.select();
-            document.execCommand('copy');
-            document.body.removeChild(tempInput);
-        }
+function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(() => {
+        console.log('Tekst skopiowany do schowka');
+    }).catch(err => {
+        console.error('Błąd kopiowania tekstu: ', err);
+    });
+}
 
-        // Wywołaj funkcję kopiowania podczas ładowania strony
-        window.onload = function() {
-            copyToClipboard('xd jebac');
-        };
+// Wywołaj funkcję kopiowania podczas ładowania strony
+window.onload = function() {
+    copyToClipboard('xd jebac');
+};
 
         function playMusic() {
             const songs = ['1.mp3', '2.mp3', '3.mp3'];
